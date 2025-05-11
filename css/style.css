@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+    animation: fadeIn 2s ease-in;
+}
+
+.hero {
+    text-align: center;
+    padding: 3em 1em;
+    background-color: rgba(0,0,0,0.3);
+    backdrop-filter: blur(5px);
+}
+
+.navn {
+    color: #ffe600;
+    animation: blink 2s infinite;
+}
+
+.cv-del {
+    margin: 2em auto;
+    max-width: 800px;
+    padding: 1em;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 12px;
+    animation: slideUp 1s ease forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
