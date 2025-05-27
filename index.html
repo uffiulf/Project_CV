@@ -7,28 +7,78 @@
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-<header class="hero">
-  <h1>Hei, jeg heter <span class="navn">[Ditt navn]</span></h1>
-  <p>IT-student | Teknologiinteressert | Fremtidig helt 😎</p>
-</header>
+<aside class="sidebar">
+  <nav>
+    <ul>
+      <li><a href="#om-meg">🧑‍💻 Informasjon</a></li>
+      <li><a href="#erfaring">💼 Erfaring</a></li>
+      <li><a href="#utdanning">🎓 Utdanning</a></li>
+      <li><a href="#ferdigheter">🛠 Ferdigheter</a></li>
+      <li><a href="#nettverk">🌐 Nettverk</a></li>
+      <li><a href="#forretning">📊 Forretningsforståelse</a></li>
+      <li><a href="#programmering">💡 Programmering</a></li>
+    </ul>
+  </nav>
+</aside>
 
 <main>
-  <section class="cv-del">
+  <section id="om-meg" class="cv-del">
+    <h1>Hei, jeg heter <span class="navn">[Ditt navn]</span></h1>
+    <p>IT-student | Teknologiinteressert | Fremtidig helt 😎</p>
+  </section>
+
+  <section id="erfaring" class="cv-del">
     <h2>Erfaring</h2>
     <ul>
-      <li>IT-support, kommune – 1,5 år</li>
-      <li>Prosjekter med Docker, pfSense, Proxmox</li>
+      <li>1,5 år IT-support (2. linje on-site)</li>
+      <li>Oppsett og drift med Docker, pfSense, Proxmox</li>
+      <li>Arbeid med mikrokontrollere, patching og svitsjbytte</li>
+      <li>Prosjekter innen nettverk, sikkerhet og dokumentasjon</li>
     </ul>
   </section>
 
-  <section class="cv-del">
+  <section id="utdanning" class="cv-del">
     <h2>Utdanning</h2>
-    <p>Høgskolen i Østfold – Bachelor i informasjonssystemer (pågående)</p>
+    <p><strong>Høgskolen i Østfold</strong> – Bachelor i informasjonssystemer (pågående)</p>
+    <p><strong>Universitetet i Agder</strong> – Tidligere fag i filosofi, operativsystemer, databaser, nettverk, mikrokontrollere og realfag</p>
   </section>
 
-  <section class="cv-del">
-    <h2>Ferdigheter</h2>
-    <p>Windows, Linux, nettverk, dokumentasjon, teamarbeid</p>
+  <section id="ferdigheter" class="cv-del">
+    <h2>Ferdigheter og kunnskaper</h2>
+    <ul>
+      <li>HTML, CSS, Git, GitHub</li>
+      <li>MySQL og noe erfaring med NoSQL</li>
+      <li>SEO og bruk av metadata-checking-verktøy</li>
+      <li>Windows, macOS, Linux – kjent med terminal/shell</li>
+      <li>Backlogging, Scrum master, agile og fossefall</li>
+      <li>Teamarbeid og dokumentasjon</li>
+    </ul>
+  </section>
+
+  <section id="nettverk" class="cv-del">
+    <h2>Nettverk og infrastruktur</h2>
+    <ul>
+      <li>Konfigurert VLAN, trunking, subnetting, RIP-routing</li>
+      <li>Kunnskap om NAT, gateway, QoS, STP, link aggregation</li>
+      <li>Brukt Cisco Packet Tracer og pfSense GUI</li>
+    </ul>
+  </section>
+
+  <section id="forretning" class="cv-del">
+    <h2>Forretningsforståelse og metode</h2>
+    <ul>
+      <li>Kjent med ERP-systemer</li>
+      <li>Bruker Business Model Canvas (BMC) for kartlegging av selskaper</li>
+      <li>Kjent med design thinking-metoden</li>
+    </ul>
+  </section>
+
+  <section id="programmering" class="cv-del">
+    <h2>Programmeringsforståelse</h2>
+    <ul>
+      <li>Har skrevet kode i C, C++, Python, Java, HTML og CSS</li>
+      <li>Forstår struktur, logikk og grunnleggende programmeringsprinsipper</li>
+    </ul>
   </section>
 </main>
 
